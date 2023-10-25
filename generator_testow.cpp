@@ -23,6 +23,7 @@ int main()
                 ta.first = rand() % 1000 +1;
                 ta.second = rand() % 1000 + 1001;
             }
+            uzyte.insert(ta);
         }else
         {
             uzyte.insert(ta);
