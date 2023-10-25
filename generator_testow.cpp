@@ -24,6 +24,7 @@ int main()
                 ta.second = rand() % 1000 + 1001;
             }
             uzyte.insert(ta);
+            out << ta.first << " " << ta.second << "\n";
         }else
         {
             uzyte.insert(ta);
